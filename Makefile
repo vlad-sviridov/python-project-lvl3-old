@@ -18,4 +18,4 @@ build: check
 package-install:
 	pip install --user dist/*.whl
 
-.PHONY install test lint selfchek check build package-install
+.PHONY: install test lint selfchek check build package-install
